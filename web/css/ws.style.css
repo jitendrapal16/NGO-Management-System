@@ -1,0 +1,249 @@
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.tm-image {
+    width: 100%;
+    height: 520px;
+}
+
+section.content {
+    padding-top: .5em;
+    padding-bottom: 2.5em;
+}
+
+.content {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.content-item {
+    padding-right: 0px;
+    padding-left: 0px;
+    min-height: 520px !important;
+}
+
+.content-item p:last-child {
+    margin-bottom: 0;
+}
+
+.background.content-item-1 {
+    padding: 60px 65px;
+}
+
+.background {
+    background-color: #fff;
+    padding: 55px 45px;
+}
+
+.main-title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.dark-blue-text {
+    color: #006699;
+}
+
+.light-blue-text {
+    color: #2FACFF;
+}
+
+.dark-blue-bordered-btnn:hover,
+.dark-blue-bordered-btnn:focus,
+.dark-blue-btnn {
+    background: #006699;
+    color: white;
+}
+
+.dark-blue-btnn:hover,
+.dark-blue-btnn:focus,
+.dark-blue-bordered-btnn {
+    background: none;
+    border: 1px solid #006699;
+    color: #006699;
+}
+
+.section-text {
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.btnn {
+    border-radius: 0px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 15px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.btnn:last-child {
+    margin-right: 0;
+}
+
+.btnn-big {
+    padding: 10px 40px;
+    min-width: 176px;
+}
+
+.normal-btnn {
+    font-size: 16px;
+    font-weight: 300;
+    min-width: 145px;
+}
+
+.content-item input,
+.content-item textarea {
+    border-radius: 0px;
+}
+
+@media screen and (max-width:1199px) {
+    .content-item {
+        min-height: 470px !important;
+    }
+    .tm-image {
+        height: 470px;
+    }
+    .content-item img {
+        min-height: 470px !important;
+    }
+    .background p {
+        line-height: 22px;
+    }
+    .background p,
+    .background li {
+        font-size: 13px;
+    }
+    .background h2 {
+        margin-bottom: 10px !important;
+    }
+    p {
+        margin: 0 0 10px;
+    }
+    .btnn {
+        margin-top: 15px;
+    }
+    .background {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .background {
+        padding: 15px;
+    }
+    .background.content-item-1 {
+        padding: 0 40px;
+    }
+    .btnn {
+        margin-top: 10px;
+    }
+    .form-control {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .content-item {
+        min-height: inherit !important;
+    }
+    .content-item img {
+        min-height: inherit !important;
+    }
+    .tm-image {
+        height: 470px;
+    }
+    .background p {
+        line-height: 27px;
+    }
+    .background p,
+    .background li {
+        font-size: 16px;
+    }
+    .background h2 {
+        margin-bottom: 20px;
+    }
+    p {
+        margin: 0 0 20px;
+    }
+    .btnn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .tm-image {
+        height: 470px;
+    }
+    #home {
+        padding-top: 2.5em;
+    }
+    .main-title {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .btnn {
+        margin-top: 10px;
+    }
+    .tm-image {
+        height: 470px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .background.content-item-1 {
+        padding: 40px 45px;
+    }
+    .tm-image {
+        height: 420px;
+    }
+    .background {
+        padding: 20px 35px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .background {
+        padding: 20px 35px;
+    }
+    .background.content-item-1 {
+        padding: 20px 25px;
+    }
+    .tm-image {
+        height: 370px;
+    }
+}

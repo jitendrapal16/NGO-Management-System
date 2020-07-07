@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="ls.styles.css" rel="stylesheet">
+    <link href="ow.styles.css" rel="stylesheet">
+    <link href="mc.style.css" rel="stylesheet">
+    <link href="fontawesome-free-5.12.1-web\css\all.css" rel="stylesheet">
+    <link href="footer-style.css" rel="stylesheet">
+    <link href="float-donate.css" rel="stylesheet">
+    <title>NGO</title>
+
+</head>
+<style>
+    .volunteers-wrapper .weneed-volunt.info-block {
+        padding: 0 40px;
+        text-align: center;
+        position: relative;
+        z-index: 99;
+    }
+    
+    .volunteers-need-wrapper.volunteers-wrapper {
+        position: relative;
+        background: rgba(0, 0, 0, 0.4) url("image/volunteers.png") no-repeat fixed center top / cover;
+        border: #f6f6f6 1px solid;
+    }
+    
+    .volunteers-wrapper .weneed-volunt.info-block {
+        background: rgb(240, 238, 238) none repeat scroll 0 0;
+        margin: 0 auto;
+        padding: 40px;
+        position: relative;
+        text-align: center;
+        width: 65%;
+        z-index: 99;
+    }
+    
+    .volunteers-wrapper.images-gallery-wrapper {
+        padding-top: 104px;
+    }
+    /* 8.0 - Volunteers */
+    
+    .volunteers-wrapper {
+        background: #f6f6f6;
+        padding: 95px 0;
+        overflow-x: hidden;
+    }
+    
+    .volunteers-wrapper .images-outer {
+        height: 100%;
+        position: relative;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner {
+        position: relative;
+        float: right;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner .images {
+        padding: 3px 0;
+        display: block;
+        float: none;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner .nivo-trigger {
+        opacity: .8;
+        position: relative;
+        margin: 0 3px;
+        transition: opacity .1s linear;
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner .nivo-trigger span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        line-height: 96px;
+        background: rgba(36, 40, 47, 0.85);
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0);
+        opacity: 0;
+        transition: opacity .3s ease, color .4s ease;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner .nivo-trigger:hover {
+        opacity: 1;
+    }
+    
+    .volunteers-wrapper .images-outer .images-inner .nivo-trigger:hover span {
+        opacity: 1;
+        color: rgba(221, 221, 221, 0.85);
+    }
+    
+    .volunteers-wrapper .info-block {
+        padding: 4.3% 15px 0;
+    }
+    
+    .volunteers-wrapper .info-block h2 {
+        text-transform: uppercase;
+        color: #444;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+    }
+    
+    .volunteers-wrapper .info-block h2 span {
+        color: #0aaaa0;
+    }
+    
+    .volunteers-wrapper .info-block p {
+        color: #4a4a4a;
+        margin: 20px 0 30px;
+    }
+    
+    .volunteers-wrapper .info-block .btn {
+        border: 1px solid rgba(74, 74, 74, 0.85);
+        color: #4a4a4a;
+        transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    }
+    
+    .volunteers-wrapper .info-block .btn:hover {
+        background: #444 none repeat scroll 0 0;
+        color: #fff;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .volunteers-wrapper .images-outer {
+            margin-top: 50px;
+        }
+    }
+    
+    .volunteers-wrapper .images-outer {
+        margin-top: 0;
+    }
+    /* Tablet desktop :768px. */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .volunteers-wrapper.images-gallery-wrapper .images-outer .images-inner .nivo-trigger span {
+            line-height: 160px;
+        }
+    }
+    /* small mobile :320px. */
+    
+    @media (max-width: 767px) {
+        .volunteers-wrapper.images-gallery-wrapper .images-outer .images-inner .nivo-trigger span {
+            line-height: 160px;
+        }
+        .volunteers-wrapper .weneed-volunt.info-block {
+            width: 100%;
+        }
+        .volunteers-wrapper .info-block .btn {
+            font-size: 12px;
+        }
+        .volunteers-wrapper.images-gallery-wrapper .images-outer .images-inner .nivo-trigger span {
+            line-height: 201px;
+        }
+    }
+</style>
+
+<body>
+    <!--Top section starts-->
+    <div class="main">
+        <div class="nav-area">
+            <section class="top_section">
+                <div class="container">
+                    <div class="row display-none">
+                        <div class="col-md-6 col-sm-4 col-xs-12">
+                            <!--newsletter forward page-->
+                            <div class="single">
+                                <form action="subscribe" method="POST">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" name="emailId" id="emailId" placeholder="Enter Your Email Id">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-success" type="submit">SUBSCRIBE</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="hd_right">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="donate">
+                                <a href="donate.html" class="btn btn-primary btn-lg btn-details3"><b>DONATE NOW</b></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row display-none-large-screen">
+                        <div class="col-md-2 col-xs-4">
+                            <div class="donate">
+                                <a href="donate.html" class="btn btn-primary btn-details3"><b>DONATE NOW</b></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-8">
+                            <div class="hd_right ">
+                                <ul>
+                                    <li><a href="# "><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="# "><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="# "><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="# "><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li><a href="# "><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="# "><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 spacer-10 ">
+                            <div class="single ">
+                                <form action="subscribe" method="POST">
+                                    <div class="input-group ">
+                                        <input type="email " class="form-control " name="emailId" id="emailId " placeholder="Enter Your Email Id ">
+                                        <span class="input-group-btn ">
+                          <button class="btn btn-theme " type="submit">SUBSCRIBE</button>
+                          </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--Top section ends-->
+    <div class="main sticky-top">
+        <nav class="navbar navbar-default" style="box-shadow: 5px 5px 10px 5px rgba(216, 216, 216, 0.603);background: rgb(253, 253, 238);">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <a class="navbar-brand home" href="#" data-animate-hover="bounce">
+                            <div class="logo">
+                                <img src="images/logo4.png" class="img-responsive " alt="logo">
+                            </div>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="dropdown nav-area active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="About Us\AboutUs.html">About Us</a>
+                                <div class="dropdown-content">
+                                    <a href="">Overview</a>
+                                    <a href="">Vision & Mission</a>
+                                    <!--    <a href="#">Leadership</a>      -->
+                                    <a href="" class="display-none">What we do</a>
+                                    <!-- submenu start 
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown">Working Model</a>
+                                            <div class="dropdown-content submenu">
+                                                <a href="#">Social Venture Philanthropy</a>
+                                                <a href="#">Outreach </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                     <submenu end>  -->
+                                    <!--     <a href="#">Civic Driven Change</a>         -->
+                                    <a href="" class="display-none">Join us for Social Welfare</a>
+                                    <!--    <a href="#">Good Governance</a>                     -->
+                                    <a href="" class="display-none">Our Reach and Presence</a>
+                                    <!--    <a href="#" class="display-none">Stakeholders Speak</a>     -->
+                                    <a href="">Our People</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="ourWork.html">Our Work</a>
+                                <div class="dropdown-content">
+                                    <a href="">Overview</a>
+                                    <a href="">Education</a>
+                                    <a href="">Health</a>
+                                    <a href="">Livelihood</a>
+                                    <a href="">Women Empowerment</a>
+                                    <a href="" class="display-none">Disaster Response</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="ourCampaign\ourCampaign.html">Campaigns</a>
+                                <div class="dropdown-content">
+                                    <a href="">Every Child in School</a>
+                                    <a href="">Plate Half-Full</a>
+                                    <a href="">She Can Fly</a>
+                                    <a href="">Health Cannot Wait</a>
+                                    <!--    <a href="#">Help Disabled</a>
+                                    <a href="#">Adopt GrandParents</a>      -->
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="Happening.html">Happenings</a>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="getInvolve\getInvolve.html">Get Involved</a>
+                                <div class="dropdown-content">
+                                    <!-- submenu start -->
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="" data-toggle="dropdown">Individual Support</a>
+                                            <!--   <div class="dropdown-content submenu">
+                                                <a href="#">Donate</a>
+                                                <a href="#">Campaigns </a>
+                                                <a href="#">Volunteering</a>
+                                                <a href="#">Internship </a>
+                                            </div>-->
+                                        </li>
+                                    </ul>
+                                    <!-- <submenu end>  -->
+                                    <a href="">Corporate Partnerships</a>
+                                    <a href="" class="display-none">Institutional Alliances</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="media.news.html">Media Centre</a>
+                                <div class="dropdown-content">
+                                    <a href="media.news.html">News</a>
+                                    <a href="imageGallery.html">Image Gallery</a>
+                                    <!--   <a href="#">Celebrities & Personalities</a>     -->
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="resourceCentre.html">Resource Centre</a>
+                                <div class="dropdown-content">
+                                    <a href="">Articles</a>
+                                    <!-- submenu start 
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown">Perspective</a>
+                                            <div class="dropdown-content dropdown-content-right dropdown-content-right submenu">
+                                                <a href="#">Child Rights</a>
+                                                <a href="#">Children in India</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <submenu end>  -->
+                                    <a href="">Annual Report</a>
+                                    <a href="">Stories of Change</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="contactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <!--1st division-->
+    <section class="banner-area">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" data-interval="100">
+                    <img class="img-responsive" src="images/img0.jpg" alt="banner">
+                </div>
+                <div class="item" data-interval="100">
+                    <img src="images/img-1.jpg" alt="banner" class="img-responsive">
+                    <!--          <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>        -->
+                    <!-- For caption on Images   -->
+                </div>
+                <div class="item" data-interval="100">
+                    <img class="img-responsive" src="images/img-2.jpg" alt="banner">
+                </div>
+                <div class="item" data-interval="100">
+                    <img class="img-responsive" src="images/img-3.jpg" alt="banner">
+                </div>
+                <div class="item" data-interval="100">
+                    <img class="img-responsive" src="images/img-4.jpg" alt="banner">
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
+            <!--
+            <a class="left carous-control hidden-xs" href="#carousel-example-generic" data-slide="prev">
+                <img src="images/prev.png" class="arrow-bg" alt="previous">
+            </a>
+            <a class="right carous-control hidden-xs" href="#carousel-example-generic" data-slide="next">
+                <img src="images/next.png" class="arrow-bg" alt="next">
+            </a>
+            -->
+        </div>
+        <!-- /#main-slider -->
+
+    </section>
+
+    <!-- /#Floatinf donation starts from here -->
+    <div>
+        <a style="text-decoration: none;" href="donate.html" class="floatDonate" id="menu-donate">
+            <div><i class="fas fa-hand-holding-usd my-float"></i></div>
+            <small>Donate</small>
+        </a>
+    </div>
+    <!-- /#Floating donation ends from here -->
+
+    <!-- /#About Us and login-signup division starts from here -->
+    <h5 class="sec-title tit"><b>About Us</b></h5>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 borderr">
+
+                <img src="img/about_or_donate_quote.jpg" class="borderr" id="about_logo" style="height:120px; width: 100%; padding: unset;" />
+                <p style="font-size: 16px;line-height: 2.5rem;padding: 1%;">
+                    Following a lifecycle approach, Our Foundation works intensively through focused welfare projects like child education, healthcare for families, and community engagement through women empowerment to support women and girls get access to quality education,
+                    maternal and child health care services, sustainable livelihood opportunities, and relief and rehabilitation during disasters.
+
+                </p>
+                <p style="font-size: 16px;line-height: 2.5rem;padding-left: 1%;"><b><span style="color: rgb(19, 196, 3);">&#x2714</span> &nbsp; OverView</b></p>
+                <p style="font-size: 16px;line-height: 2.5rem;padding-left: 1%;"><b><span style="color: rgb(19, 196, 3);">&#x2714</span> &nbsp; Vision and Mission</b></p>
+                <p style="font-size: 16px;line-height: 2.5rem;padding-left: 1%;"><b><span style="color: rgb(19, 196, 3);">&#x2714</span> &nbsp; Smilestone</b></p>
+                <p style="font-size: 16px;line-height: 2.5rem;padding-left: 1%;"><b><span style="color: rgb(19, 196, 3);">&#x2714</span> &nbsp; Reach and Presence</b></p>
+
+                <a style="line-height: 2.7rem;padding-left: 1%;font-size: 16px;" class="btn btn-primary col-md-3" href="About Us\AboutUs.html" role="button">Read more</a>
+
+            </div>
+
+            <div class="col-md-6 borderr" id="logSignup">
+                <!--log-signup form starts from here -->
+                <div class="form">
+                    <div class="head" class="signup">
+                        <div onclick="swap(this);" data-tab="login" class="login-tab" style="font-weight: 500;">
+                            LOGIN
+                        </div>
+                        <div onclick="swap(this);" data-tab="signup" class="signup-tab" style="font-weight: 500;">
+                            SIGN-UP As Volunteer
+                        </div>
+                    </div>
+                    <div class="fbody" id="form-body">
+                        <form class="login" action="LoginChecker" method="POST" id="login-form">
+                            <div class="input-box">
+                                <i class="fa fa-user"></i>
+                                <input type="text" name="username" placeholder="Username" pattern="[A-Za-z0-9_.]{2,15}" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fa fa-lock"></i>
+                                <input type="password" name="password" placeholder="Password" id="myInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,}" required>
+                                <span class="eye" onclick="eyeHideShow()">
+                        <i id="hide1" class="fa fa-eye"></i>
+                        <i id="hide2" class="fa fa-eye-slash"></i>
+                        </span>
+                            </div>
+                            <div class="custom-select-set">
+                                <select name="loginas" class="custom-select mb-3" required>
+                                    <option value="">Login as</option>
+                                    <option value="Volunteer">Volunteer</option>
+                                    <option value="Member">Member</option>
+                                    <option value="Admin">Admin</option>
+                                  </select>
+                            </div>
+                            <div class="checkbox-set" style="margin-bottom: 2rem; margin-top: 2rem;">
+                                <input type="checkbox" class="form-check-input" name="rememberMe" value="remember" id="exampleCheck1" checked>
+                                <label class="form-check-label" for="exampleCheck1" style="font-size: 13px;"> &nbsp;Remember me</label>
+                            </div>
+                            <button type="submit" class="login-btn">Login</button>
+                            <div style="overflow:hidden; margin-top: 10px; font-size: 16px;">
+                                <div style="margin-left:10%;float:left;">
+                                    <span class="fpsw"><a href="donateMember.html" style="color: orangered;font-family: serif;font-weight: bold;font-size: large">Become Member <i class="fas fa-user-plus"></i></a></span>
+                                </div>
+                                <div style="margin-right:10%;float:right;">
+                                    <span class="fpsw">Forgot <a href="#" style="color: blue; text-decoration: underline;">password?</a></span>
+                                </div>
+                            </div>
+
+                        </form>
+                        <form class="signup" action="RegChecker" method="POST" id="signup-form">
+                            <div class="tab">
+                                <div style="overflow:hidden; margin-top: 10px; margin-bottom: -20px;">
+                                    <div style="margin-left:10%;float:left; color: rgb(202, 199, 199);">
+                                        <h3><strong>Personal Info. :</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="input-box">
+                                    <input name="fname" oninput="this.className = ''" id="fname" pattern="[A-z]{1,15}" required>
+                                    <label for="fname">First Name</label>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+                                </div>
+                                <div class="input-box">
+                                    <input name="lname" oninput="this.className = ''" id="lname" pattern="[A-z]{1,15}" required>
+                                    <label for="lname">Last Name</label>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+                                </div>
+                                <div class="input-box">
+                                    <input type="date" name="dob" oninput="this.className = ''" id="dob" pattern="" required>
+                                    <label for="dob">Date Of Birth</label>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <div style="overflow:hidden; margin-top: 10px; margin-bottom: -20px;">
+                                    <div style="margin-left:10%;float:left; color: rgb(182, 180, 180);">
+                                        <h3><strong>Contact Info. :</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="input-box">
+                                    <input required name="email" oninput="this.className = ''" id="email" pattern="[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})">
+                                    <label for="email">E-mail</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" required name="phone" oninput="this.className = ''" id="phone" pattern="[0-9]{10,12}">
+                                    <label for="phone">Phone</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" required name="address" oninput="this.className = ''" id="address" pattern="[A-Za-z0-9_.,-]{2,50}">
+                                    <label for="address">Address</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <div style="overflow:hidden; margin-top: 10px; margin-bottom: -20px;">
+                                    <div style="margin-left:10%;float:left; color: rgb(182, 180, 180);">
+                                        <h3><strong>Basic Info. :</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="input-box">
+                                    <input required name="profession" id="Profession" oninput="this.className = ''" pattern="[a-zA-Z]{1,20}">
+                                    <label for="Profession">Profession</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="input-box">
+                                    <input required name="nationality" id="Nationality" oninput="this.className = ''" pattern="[a-zA-Z]{1,20}">
+                                    <label for="Nationality">Nationality</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="custom-select-set">
+                                    <label for="gender">Gender</label>
+                                    <select name="gender" id="gender" class="custom-select mb-3" required>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="other">Other</option>
+                                          </select>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <div style="overflow:hidden; margin-top: 10px; margin-bottom: -20px;">
+                                    <div style="margin-left:10%;float:left; color: rgb(182, 180, 180);">
+                                        <h3><strong>Login Info. :</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="input-box">
+                                    <input type="text" name="username" oninput="this.className = ''" id="username" pattern="[A-Za-z0-9_.]{2,15}" required>
+                                    <label for="username">Username</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="input-box">
+                                    <input name="password" oninput="this.className = ''" type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,}" title="6 digit password with numbers,uppercase,lowercase and special characters" required>
+                                    <label for="password">Password</label>
+
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <i class="fa fa-check-circle"></i>
+
+                                </div>
+                                <div class="input-box">
+                                    <input name="password" oninput="this.className = ''" onkeyup="checkPassword();" type="password" id="checkpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,}" title="6 digit password with numbers,uppercase,lowercase and special characters"
+                                        required>
+                                    <label for="password">Confirm Password</label>
+                                    <i id="checkpassword1" class="fa fa-exclamation-circle"></i>
+                                    <i id="checkpassword2" class="fa fa-check-circle"></i>
+                                    <span class="checkspassword">
+                                    <i id="checkpassword1" class="fa fa-exclamation-circle"></i>
+                                    <i id="checkpassword2" class="fa fa-check-circle"></i>
+                                </span>
+                                </div>
+                            </div>
+                            <div style="overflow:auto;">
+                                <div style="margin-right:10%;float:right;color: #fff;font-weight: bold;">
+                                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                </div>
+                            </div>
+                            <!-- Circles which indicates the steps of the form: -->
+                            <div style="text-align:center;margin-top:40px;">
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                                <span class="step"></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--log-signup form ends here -->
+            </div>
+        </div>
+    </div>
+    <!-- /#About Us and login-signup division ends from here -->
+
+    <!-- /#Our Works Section starts from here -->
+
+    <section class="iq-features">
+        <div class="container">
+            <div class="row align-items-center">
+                <h5 class="sec-title tit">Our Works</h5>
+                <div class="col-lg-6 col-md-12">
+                    <div class="holderCircle">
+                        <div class="round"></div>
+                        <div class="dotCircle">
+                            <span class="itemDot active itemDot1" data-tab="1">
+                                <i class="fas fa-donate"></i>
+                                <span class="forActive"></span>
+                            </span>
+                            <span class="itemDot itemDot2" data-tab="2">
+                                <i class="fas fa-book-reader"></i>
+                                <span class="forActive"></span>
+                            </span>
+                            <span class="itemDot itemDot3" data-tab="3">
+                                <i class="fas fa-plus-square"></i>
+                                <span class="forActive"></span>
+                            </span>
+                            <span class="itemDot itemDot4" data-tab="4">
+                                <i class="fas fa-sign-language"></i>
+                                <span class="forActive"></span>
+                            </span>
+                            <span class="itemDot itemDot5" data-tab="5">
+                                <i class="fas fa-female"></i>
+                                <span class="forActive"></span>
+                            </span>
+                            <span class="itemDot itemDot6" data-tab="6">
+                                <i class="fa fa-house-damage"></i>
+                                <span class="forActive"></span>
+                            </span>
+                        </div>
+                        <div class="contentCircle">
+                            <div class="CirItem title-box active CirItem1">
+                                <h2 class="title"><span>Donate</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fas fa-donate"></i>
+                            </div>
+                            <div class="CirItem title-box CirItem2">
+                                <h2 class="title"><span>Education</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fas fa-book-reader"></i>
+                            </div>
+                            <div class="CirItem title-box CirItem3">
+                                <h2 class="title"><span>Health</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fas fa-plus-square"></i>
+                            </div>
+                            <div class="CirItem title-box CirItem4">
+                                <h2 class="title"><span>Help in livelihood</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fas fa-sign-language"></i>
+                            </div>
+                            <div class="CirItem title-box CirItem5">
+                                <h2 class="title"><span>Women Empowerment</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fas fa-female"></i>
+                            </div>
+                            <div class="CirItem title-box CirItem6">
+                                <h2 class="title"><span>Disaster Response</span></h2>
+                                <p class="p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <i class="fa fa-house-damage"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 services-right-w3ls main-about-grid text-center about">
+                    <h5 style="margin-top: 10px;">All works that runs in our NGO</h5>
+                    <p class="p"> We Following a lifecycle approach, Our Foundation works intensively through focused welfare projects in four major areas – child education, healthcare for families, skills training and livelihood for youth, and community engagement
+                        through women empowerment.d livelihood through women empowerment livelihood through women empowerment.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /#Our Works Section ends from here -->
+
+    <!-- /#Our campaign Section starts from here -->
+
+    <h5 class="sec-title tit">Our Campaigns</h5>
+    <div class="container">
+        <a href="ourCampaign\ourCampaign.html" style="float: right;font-size: 16px;color: #4d4dfa;cursor: pointer;">See more >></a>
+    </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="image\schl.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #f06f25;font-weight: 600;">Every Child in School</h4>
+                    <p style="font-size: 14px;" class="card-text"> Millions of children who start primary school are unable to finish and still more miss out on secondary school. Today, some 69 million adolescents—in low-income countries—are receiving no post-primary education. We can no longer afford
+                        the cost of excluding them.</p>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                    <a href="ourCampaign\ourCampaign.html" onclick="alert('Choose from Campaigns and Donate');" style="color: #4d4dfa; font-weight: bold;font-size: 16px;cursor: pointer;">Donate</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="image\plate.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #f06f25; font-weight: 600;">Plate Half-Full</h4>
+                    <p style="font-size: 14px;" class="card-text">A full plate of food filled with the goodness of nutrients is nourishing; both bodily and mental, keeps one active and free from diseases. One of the most important aspect for any kind of development is taking care of children, enabling
+                        them to grow up healthy.</p>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                    <a href="ourCampaign\ourCampaign.html" onclick="alert('Choose from Campaigns and Donate');" style="color: #4d4dfa; font-weight: bold;font-size: 16px;cursor: pointer;">Donate</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="image\fly.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #f06f25; font-weight: 600;">She Can Fly</h4>
+                    <p style="font-size: 14px;" class="card-text">A girl child comes into this world with just as many expectations, but soon finds out that her way towards achieving them is much more challenging. The mere absence of an education; has to follow according to the norms of the society
+                        makes suffer mentally.</p>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                    <a href="ourCampaign\ourCampaign.html" onclick="alert('Choose from Campaigns and Donate');" style="color: #4d4dfa; font-weight: bold;font-size: 16px;cursor: pointer;">Donate</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="image\health.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title" style="color: #f06f25; font-weight: 600;">Health Can not Wait</h4>
+                    <p style="font-size: 14px;" class="card-text">Doctors examine patients, and together form a plan of care, and treatments – before insurance companies step in with prior authorization and step therapy red tape to prevent patients from immediately accessing the care they need.</p>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                    <a href="ourCampaign\ourCampaign.html" onclick="alert('Choose from Campaigns and Donate');" style="color: #4d4dfa; font-weight: bold;font-size: 16px;cursor: pointer;">Donate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#Our campaign Section ends from here -->
+
+    <!-- /#Media Centre Section starts from here -->
+    <section class="media-center" style="margin-bottom: 20px;">
+        <h1 class="sec-title tit">Media Center</h1>
+        <br><br>
+        <ul class="ch-grid">
+            <li style="pointer-events: none;">
+                <div class="ch-item ch-img-4">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-4"></div>
+                            <div class="ch-info-back">
+                                <h3>Online</h3>
+                                <p>Social Media with Us<a href="#">Click on it know to see</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-1">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-1"></div>
+                            <div class="ch-info-back">
+                                <h3>News</h3>
+                                <p>Best Press releases<a href="media.news.jsp">Click on it now to see</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-2">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-2"></div>
+                            <div class="ch-info-back">
+                                <h3>Image Gallery</h3>
+                                <p>Image Gallery of Our Work<a href="imageGallery.jsp">Click on it now to see</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li style="pointer-events: none;">
+                <div class="ch-item ch-img-3">
+                    <div class="ch-info-wrap">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-3"></div>
+                            <div class="ch-info-back">
+                                <h3>Electronic Media</h3>
+                                <p>Electronic Media with Us<a href="#">Click on it know to see</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- /#Media Centre Section ends from here -->
+
+    <!-- Volunteers -->
+    <div class="volunteers-need-wrapper volunteers-wrapper">
+        <div class="parallax-mask"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="weneed-volunt info-block">
+                        <h2 style="font-size: 24px;line-height: 24px;">We Need Volunteers</h2>
+                        <p style="font-size: 14px;line-height: 24px;font-family: 'Lato', sans-serif;font-weight: 400;color: #4a4a4a;">Nullam turpis mauris, egestas sed rutrum quis, egestas quis diam. Morbi at congue justo, a co. Fusce eget ante volutpat, rutrum orci non, scelerisque enim. Fusce eget nibh ornare, fringillolvenenatis eros. Nulla laoreet sagittis
+                            est, quis dapibus justo malesuada sed.</p>
+                        <a href="#logSignup" onclick="window.alert('To Beacome Volunteer, Just Sign-up and get a chance to Work with us.')" class="btn btn-big" style="font-size: 14px;"><i class="fa fa-heartbeat"></i> Become a Volunteer</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /#Footer Section starts from here -->
+    <footer class="fot-er">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="about widgetf clearfix">
+                        <h4 class="footer_title large_title footer-styl h4-footer" style="color: wheat;font-size: 26px;">Our NGO</h4>
+                        <p class="footer-styl p-footer">
+                            So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.
+                        </p>
+
+                        <div class="social-media-icons">
+                            <a href="#" class="footer-styl"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+                            <a href="#" class="footer-styl"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+                            <a href="#" class="footer-styl"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+                            <a href="#" class="footer-styl"><i class="fab fa-linkedin"></i><span>Linkedin</span></a>
+                            <a href="#" class="footer-styl"><i class="fab fa-youtube"></i><span>Youtube</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="quick-linksf widgetf clearfix">
+                        <h4 class="title footer-styl h4-footer" style="color: wheat;">Quick links</h4>
+                        <div class="linksf" style="font-size: 14px;">
+                            <a href="About Us\AboutUs.html" class="footer-styl"><i class="fas fa-angle-double-right"></i>About Us</a>
+                            <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Forum</a>
+                            <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Terms and Conditions</a>
+                            <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Privacy Policy</a>
+                            <a href="" onclick="window.alert('Go to Resource Centre>Articles')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Blog</a>
+                            <a href="ourCampaign\ourCampaign.html" class="footer-styl"><i class="fas fa-angle-double-right"></i>Campaigns</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 ">
+                    <div class="tags-outer widgetf clearfix">
+                        <h4 class="footer_title h4-footer" style="color: wheat;">Contact Us</h4>
+                        <div class="ml-40">
+                            <p class="sm-head footer-styl" style="font-size: 14px;">
+                                <span class="fa fa-location-arrow"></span> Head Office
+                            </p>
+                            <p style="color: white;" class="footer-styl p-footer">123, Main Street, Your City</p>
+
+                            <p class="sm-head footer-styl" style="font-size: 14px;">
+                                <span class="fa fa-phone"></span> Phone Number
+                            </p>
+                            <p style="color: white;" class="footer-styl p-footer">
+                                +123 456 7890 <br> +123 456 7890
+                            </p>
+
+                            <p class="sm-head" class="footer-styl">
+                                <span class="fa fa-envelope"></span> Email
+                            </p>
+                            <p style="color: white;font-size: 14px;" class="footer-styl p-footer">
+                                info@ourNGO.com <br> www.infoOurNGO.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="subcribe widgetf clearfix">
+                        <h4 class="title h4-footer" style="color: wheat;" class="footer-styl">Subscribe</h4>
+                        <p class="footer-styl p-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate provident amet reprehenderit!</p>
+                        <form action="subscribe" method="Post">
+                            <div class="field">
+                                <input type="email" class="footer-subscrib" name="emailId" placeholder="Your E-mail" required>
+                            </div>
+                            <div class="field">
+                                <button class="btn btn-min btn-solid" type="submit"><span>Subscribe</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <h5 class="h5-footer">Copyright ©2020 Our NGO. All Rights Reserved</h5>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /#Footer Section ends from here -->
+
+
+    <script type="text/javascript">
+        let i = 2;
+        $(document).ready(function() {
+            var radius = 200;
+            var fields = $('.itemDot');
+            var container = $('.dotCircle');
+            var width = container.width();
+            radius = width / 2.5;
+
+            var height = container.height();
+            var angle = 0,
+                step = (2 * Math.PI) / fields.length;
+            fields.each(function() {
+                var x = Math.round(width / 2 + radius * Math.cos(angle) - $(this).width() / 2);
+                var y = Math.round(height / 2 + radius * Math.sin(angle) - $(this).height() / 2);
+                if (window.console) {
+                    console.log($(this).text(), x, y);
+                }
+
+                $(this).css({
+                    left: x + 'px',
+                    top: y + 'px'
+                });
+                angle += step;
+            });
+
+
+            $('.itemDot').click(function() {
+
+                var dataTab = $(this).data("tab");
+                $('.itemDot').removeClass('active');
+                $(this).addClass('active');
+                $('.CirItem').removeClass('active');
+                $('.CirItem' + dataTab).addClass('active');
+                i = dataTab;
+
+                $('.dotCircle').css({
+                    "transform": "rotate(" + (360 - (i - 1) * 36) + "deg)",
+                    "transition": "2s"
+                });
+                $('.itemDot').css({
+                    "transform": "rotate(" + ((i - 1) * 36) + "deg)",
+                    "transition": "1s"
+                });
+
+
+            });
+
+            setInterval(function() {
+                var dataTab = $('.itemDot.active').data("tab");
+                if (dataTab > 6 || i > 6) {
+                    dataTab = 1;
+                    i = 1;
+                }
+                $('.itemDot').removeClass('active');
+                $('[data-tab="' + i + '"]').addClass('active');
+                $('.CirItem').removeClass('active');
+                $('.CirItem' + i).addClass('active');
+                i++;
+
+
+                $('.dotCircle').css({
+                    "transform": "rotate(" + (360 - (i - 2) * 36) + "deg)",
+                    "transition": "2s"
+                });
+                $('.itemDot').css({
+                    "transform": "rotate(" + ((i - 2) * 36) + "deg)",
+                    "transition": "1s"
+                });
+
+            }, 5000);
+
+        });
+    </script>
+
+    <script src="ls.style.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

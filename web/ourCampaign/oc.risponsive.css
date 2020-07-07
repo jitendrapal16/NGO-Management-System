@@ -1,0 +1,148 @@
+ @media (max-width: 767px) {
+     .container {
+         max-width: 100%;
+     }
+     .our_causes article {
+         width: 48.5%;
+         margin-left: 1%;
+     }
+     blockquote {
+         font-size: 20px;
+     }
+     .our_causes article:first-child {
+         margin-left: 0px !important;
+     }
+     .our_causes article:nth-child(4n+1) {
+         margin-left: 1% !important;
+     }
+     .col-md-12 iframe {
+         width: 100%;
+         float: left;
+     }
+     .col-md-12 .shortgrid figure {
+         width: 100% !important;
+     }
+     .event-text {
+         margin-bottom: 10px;
+     }
+     .cause-detail .text-sec .progress-desc {
+         width: 100%;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box.raised-amount {
+         width: 40%;
+     }
+     .btndonate {
+         font-size: 20px;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box.raised-amount strong {
+         font-size: 20px;
+     }
+     .element_size_100,
+     .element_size_75,
+     .element_size_25,
+     .element_size_50 {
+         width: 100%;
+         padding: 0px;
+     }
+     .element_size_100 .flexslider {
+         width: 398px;
+         margin: 0 auto;
+     }
+     .progress-bar-box {
+         width: 32%;
+     }
+ }
+ 
+ @media (min-width: 250px) and (max-width: 480px) {
+     .progress-bar-box {
+         width: 100%;
+         margin-bottom: 5px;
+     }
+     .btndonate {
+         float: left;
+     }
+     .element_size_100 .flexslider {
+         width: 230px;
+         margin: 0 auto;
+     }
+     .element_size_100,
+     .element_size_75,
+     .element_size_25,
+     .element_size_50,
+     .text-group .side-post {
+         width: 100%;
+         padding: 0px;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box {
+         padding-left: 8px;
+     }
+     .btnshowmore {
+         margin: 16px 0px 0px 0px;
+     }
+     .cause-detail .text-sec .progress-desc {
+         width: 100%;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box.raised-amount {
+         width: 40%;
+     }
+     .btndonate {
+         font-size: 13px;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box.raised-amount strong {
+         font-size: 20px;
+     }
+     .services article {
+         margin-left: 0px;
+         width: 100%;
+     }
+     .our_causes article,
+     .event-listing article .desc {
+         width: 100% !important;
+     }
+     .event-text {
+         margin-bottom: 10px;
+     }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+     .services article p {
+         font-size: 12px;
+     }
+     .cs-section-title {
+         font-size: 20px;
+     }
+     .event-text p {
+         font-size: 12px;
+     }
+     .container {
+         width: 750px !important;
+     }
+     .services article {
+         margin-left: 17px !important;
+     }
+     .our_causes article {
+         width: 31.5%;
+     }
+     .our_causes article:nth-child(4n+1) {
+         margin-left: 1% !important;
+     }
+     .col-md-12 iframe {
+         width: 100%;
+         float: left;
+     }
+     .event-text {
+         margin-bottom: 10px;
+     }
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .container {
+         width: 940px;
+     }
+     .services article {
+         margin-left: 22px !important;
+     }
+     .cause-detail .text-sec .progress-desc .progress-box {
+         padding-left: 10px;
+     }
+ }

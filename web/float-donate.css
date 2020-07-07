@@ -1,0 +1,175 @@
+.floatDonate {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #F33;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    animation: bot-to-top 2s ease-out;
+}
+
+.floatDonate:hover {
+    background-color: rgb(255, 94, 0);
+    color: #fff;
+    line-height: 140%;
+}
+
+.my-float {
+    font-size: 28px;
+    margin-top: 18px;
+}
+
+a#menu-donate+div {
+    visibility: hidden;
+}
+
+a#menu-donate:hover+div {
+    visibility: visible;
+    animation: scale-in 0.5s;
+}
+
+a#menu-donate div>i {
+    animation: rotate-in 0.5s;
+}
+
+a#menu-donate:hover>div>i {
+    animation: rotate-out 0.5s;
+    font-size: 32px;
+}
+
+a#menu-donate small {
+    animation: rotate-in 0.5s;
+    font-weight: normal;
+}
+
+a#menu-donate:hover>small {
+    animation: rotate-out 0.5s;
+    font-weight: bold;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .floatDonate {
+        width: 70px;
+        height: 70px;
+        line-height: 140%;
+    }
+    a#menu-donate div>i {
+        font-size: 24px;
+    }
+    a#menu-donate:hover>div>i {
+        font-size: 27px;
+    }
+    a#menu-donate small {
+        font-size: 100%;
+        font-weight: normal;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .floatDonate {
+        width: 70px;
+        height: 70px;
+        line-height: 140%;
+    }
+    a#menu-donate div>i {
+        font-size: 24px;
+    }
+    a#menu-donate:hover>div>i {
+        font-size: 27px;
+    }
+    a#menu-donate small {
+        font-size: 100%;
+        font-weight: normal;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .floatDonate {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .floatDonate {
+        width: 80px;
+        height: 80px;
+        line-height: 160%;
+    }
+    a#menu-donate div>i {
+        font-size: 26px;
+    }
+    a#menu-donate:hover>div>i {
+        font-size: 32px;
+        line-height: 110%;
+    }
+    a#menu-donate small {
+        font-size: 100%;
+        font-weight: normal;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1400px) {
+    .floatDonate {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@keyframes bot-to-top {
+    0% {
+        bottom: -40px
+    }
+    50% {
+        bottom: 40px
+    }
+}
+
+@keyframes scale-in {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes rotate-in {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-out {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

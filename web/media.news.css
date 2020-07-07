@@ -1,0 +1,721 @@
+.main-container {
+    padding: 50px 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%
+}
+
+.main-container.nobottpadd {
+    padding-bottom: 0
+}
+
+.main-container p a {
+    color: #f60
+}
+
+.main-container p a:hover {
+    color: #54585a
+}
+
+p.Newsp {
+    font-family: 'Merriweather Sans', arial, sans-serif;
+    color: #54585a;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:1199px) {
+    .container {
+        width: 96%
+    }
+    .mainfooterrow .btsection .rightsec {
+        width: 86%
+    }
+    .mainbannerrow .text {
+        margin: 0 8%;
+        top: 18%
+    }
+    .mainbannerrow .text .innside {
+        width: 52%
+    }
+    .mainbannerrow .text .heading {
+        font-size: 36px;
+        line-height: 42px
+    }
+    .mainbannerrow .text .taglin {
+        font-size: 20px;
+        margin-bottom: 26px
+    }
+    .main-container {
+        padding: 30px 0
+    }
+    .pagetitle h1 {
+        font-size: 36px;
+        margin-bottom: 10px
+    }
+    .donate-section .donation-row .tab-content .donationlist li label {
+        font-size: 17px;
+        margin-bottom: 5px
+    }
+    .donate-section .donation-row .tab-content .donationlist {
+        margin-top: 0
+    }
+    .donate-section .donation-row .tab-content .donationlist li {
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .donate-section .donation-row .tab-content .donationlist li {
+        width: 49% !important
+    }
+    .donate-section .donation-row .tab-content .donationlist li:nth-child(3n) {
+        margin-right: 2%
+    }
+    .donate-section .donation-row .tab-content .donationlist li:nth-child(2n) {
+        margin-right: 0 !important
+    }
+    .mainfooterrow .donatesection {
+        background-position: 60% center
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .mainfooterrow .donatesection .donateform {
+        width: 100%
+    }
+    .mainfooterrow .btsection .rightsec {
+        width: 85%
+    }
+    .mainbannerrow .inner-banner-content .title-heading {
+        font-size: 62px;
+        line-height: 66px
+    }
+    .mainbannerrow .inner-banner-content .title-heading.mng {
+        font-size: 40px;
+        line-height: 44px
+    }
+    .donate-checkout .payment-sec {
+        width: 30%
+    }
+    .donate-checkout .donation-details {
+        width: 70%
+    }
+    .donate-checkout .donation-details table {
+        width: 100%
+    }
+    .donate-checkout-review .graybox {
+        margin-bottom: 25px
+    }
+    .donate-checkout-review .donation-details {
+        margin-bottom: 25px
+    }
+    .donate-checkout-review .donation-details table {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .mainfooterrow .btsection .leftlogo {
+        float: left;
+        max-width: 15%
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        line-height: 20px
+    }
+    .container {
+        width: 100%
+    }
+    .mainfooterrow .donatesection {
+        min-height: inherit;
+        background-position: 60% center
+    }
+    .mainfooterrow .donatesection .donateform {
+        padding: 15px 0
+    }
+    .mainfooterrow .donatesection .donateform h2 {
+        margin-bottom: 15px
+    }
+    .mainfooterrow .donatesection .donateform .note {
+        margin-bottom: 15px;
+        background: rgba(233, 233, 233, .7);
+        color: #000;
+        border: 1px solid #dfdfdf;
+        padding: 10px
+    }
+    .mainfooterrow .btsection .rightsec {
+        width: 100%;
+        text-align: center
+    }
+    .mainfooterrow .btsection .leftlogo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        max-width: 100%
+    }
+    .btn-row {
+        margin-top: 15px
+    }
+    .main-container {
+        padding: 15px 0
+    }
+    .selectrow {
+        margin: 0
+    }
+    .newssection {
+        padding-top: 30px
+    }
+    .newsrow {
+        padding: 0 15px
+    }
+    .newsrow h2 {
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .mainfooterrow .btsection .leftlogo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        max-width: 100%
+    }
+    .mainfooterrow .btsection .rightsec {
+        width: 100%;
+        text-align: center
+    }
+    .mainfooterrow .btsection .rightsec .footermenu {
+        text-align: center
+    }
+    .mainfooterrow .btsection .rightsec .footermenu,
+    .mainfooterrow .btsection .rightsec .socialicon {
+        margin-bottom: 10px
+    }
+    .btnrow a {
+        width: 100%
+    }
+}
+
+.pagetitle h1 {
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', arial, sans-serif;
+    font-weight: bold;
+}
+
+.selectrow {
+    text-align: right;
+    margin: 20px 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%
+}
+
+.selectrow .selectbox {
+    display: inline-block;
+    vertical-align: top
+}
+
+.selectbox .bootstrap-select {
+    width: 175px !important
+}
+
+.selectbox .btn-default {
+    font-family: 'Merriweather Sans', arial, sans-serif;
+    padding: 8px 10px;
+    border-color: #ffac75 !important;
+    border-radius: 0;
+    background: none !important
+}
+
+.selectbox .btn-default {
+    box-shadow: none !important
+}
+
+.selectbox .btn-default:focus,
+.selectbox .btn-default:hover {
+    background: none
+}
+
+.selectbox .btn-default:focus {
+    outline: 0 !important;
+    outline-offset: 0 !important
+}
+
+.selectbox .btn-default .caret {
+    border: 0;
+    top: 6px !important;
+    right: 18px !important
+}
+
+.selectbox .btn-default .caret:before {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 18px
+}
+
+.selectbox .dropdown-menu {
+    font-family: 'HelveticaLTStd-Roman';
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ffac75
+}
+
+.selectbox .dropdown-menu>li>a {
+    padding: 6px 10px
+}
+
+select {
+    cursor: pointer;
+    border: solid 1px #e7e5e6;
+    padding: 5px 10px;
+    font-family: 'HelveticaLTStd-Light', Arial, Helvetica, sans-serif;
+}
+
+select {
+    background: #fff!important;
+}
+
+select:first-child {
+    color: #54585a;
+}
+
+.newssection .newsrow p {
+    font-size: 13px
+}
+
+.newsrow {
+    border: 1px solid #e0e0e0;
+    padding: 0 23px;
+    margin-bottom: 32px
+}
+
+.newsrow .datebox {
+    margin: -18px 0 15px
+}
+
+.newsrow .date {
+    width: 60px;
+    height: 36px;
+    background: #f60;
+    text-align: center;
+    font-size: 23px;
+    line-height: 34px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top
+}
+
+.newsrow .year {
+    padding: 5px 9px 5px 17px;
+    background: #f60;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    margin: 4px 0 0 -7px;
+    border-left: 1px solid #fff
+}
+
+.newsrow .news-type {
+    font-size: 14px;
+    line-height: 16px;
+    color: #af272f;
+    font-family: 'Merriweather Sans', arial, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+}
+
+.newsrow .news-type em {
+    width: 14px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px
+}
+
+.newsrow h2 {
+    font-family: 'Merriweather Sans', arial, sans-serif;
+    margin-bottom: 13px
+}
+
+.detailed-news .pagetitle h1 {
+    font-size: 32px;
+    margin-bottom: 20px
+}
+
+.detailed-news .newsrow {
+    margin-bottom: 5px
+}
+
+.newsrow {
+    padding: 0 15px
+}
+
+.newsrow h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.newsrow h2 a:hover {
+    color: #f60;
+}
+
+.latestnewsbl .latestnews .date {
+    background: #efb71b none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin-right: 3%;
+    min-height: 108px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: top;
+    width: 12%
+}
+
+.latestnewsbl .latestnews .date span.month {
+    border-bottom: medium none;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 9px 0;
+    text-transform: uppercase
+}
+
+.latestnewsbl .latestnews .date span {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-size: 32px;
+    padding: 13px 0;
+    vertical-align: top;
+    width: 100%
+}
+
+.eventbox .event-info span.date em {
+    background-position: -186px -91px
+}
+
+.btnrow {
+    text-align: center;
+    clear: both
+}
+
+.btnrow a {
+    display: inline-block;
+    vertical-align: top;
+    width: 422px;
+    height: 41px;
+    background: #f60;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer
+}
+
+.btnrow a i {
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.btnrow a:hover {
+    background: #54585a;
+    color: #fff;
+}
+
+.mainfooterrow .donatesection {
+    min-height: 379px
+}
+
+.mainfooterrow .donatesection .donateform {
+    display: inline-block;
+    padding-top: 54px;
+    vertical-align: top;
+    font-family: 'TrebuchetMS';
+    width: 70%
+}
+
+.mainfooterrow .donatesection .donateform h2 {
+    color: #fff;
+    font-family: "HelveticaInseratLTStd-Roman";
+    font-size: 35px;
+    margin: 0 0 26px;
+    text-transform: uppercase
+}
+
+.mainfooterrow .donatesection .donateform .input {
+    border: 1px solid #9f907d;
+    display: inline-block;
+    height: 42px;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 12px;
+    position: relative
+}
+
+.mainfooterrow .donatesection .donateform .input input {
+    border: medium none;
+    color: #54585a;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'TrebuchetMS';
+    height: 100%;
+    text-transform: uppercase;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    text-indent: 10px;
+}
+
+.mainfooterrow .donatesection .donateform .note {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 0 8px
+}
+
+.mainfooterrow .donatesection .donateform button {
+    background: #ab1355 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-family: "TrebuchetMS";
+    height: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 14px;
+    letter-spacing: 1px;
+    font-size: 16px
+}
+
+.mainfooterrow .donatesection .donateform .butn {
+    border: 1px solid #ab1355;
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px
+}
+
+.mainfooterrow .donatesection .donateform .butn:hover button {
+    background: #f60
+}
+
+.mainfooterrow .donatesection .donateform .butn:hover {
+    border: 1px solid #f60
+}
+
+.mainfooterrow .donatesection .donateform .butn .fa-fw {
+    display: inline-block;
+    font-size: 17px;
+    height: auto;
+    line-height: 12px;
+    margin-left: 1px;
+    margin-top: 5px;
+    text-align: center;
+    vertical-align: top;
+    width: auto
+}
+
+.mainfooterrow .btsection {
+    background: #f60 none repeat scroll 0 0;
+    color: #fff;
+    padding: 16px 0
+}
+
+.mainfooterrow .btsection .leftlogo {
+    float: left
+}
+
+.mainfooterrow .btsection .rightsec {
+    float: right;
+    text-align: right;
+    width: calc(100% - 200px)
+}
+
+.mainfooterrow .btsection .rightsec .footermenu {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'TrebuchetMS';
+    font-weight: 400
+}
+
+.mainfooterrow .btsection .rightsec .footermenu li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 6px
+}
+
+.mainfooterrow .btsection .rightsec .footermenu li::after {
+    content: "|";
+    margin-bottom: 0;
+    margin-left: 6px;
+    margin-right: 0
+}
+
+.mainfooterrow .btsection .rightsec .footermenu li:last-child::after {
+    display: none
+}
+
+.mainfooterrow .btsection .rightsec .footermenu li a {
+    color: #fff
+}
+
+.mainfooterrow .btsection .rightsec .socialicon {
+    margin-bottom: 15px
+}
+
+.mainfooterrow .btsection .rightsec .socialicon a {
+    background: #ff9d5b none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    height: 27px;
+    vertical-align: top;
+    font-family: FontAwesome;
+    width: 27px
+}
+
+.mainfooterrow .btsection .rightsec p.copyright {
+    color: rgba(255, 255, 255, .7);
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-family: 'TrebuchetMS'
+}
+
+.mainfooterrow .btsection .rightsec p.copyright a {
+    color: rgba(255, 255, 255, .7)
+}
+
+.mainfooterrow .btsection .rightsec p.copyright a:hover {
+    text-decoration: underline
+}
+
+.mainfooterrow .donatesection .donateform .error {
+    background: red none repeat scroll 0 0;
+    bottom: -10px;
+    color: #fff;
+    font-size: 11px;
+    left: -1px;
+    line-height: normal;
+    padding: 0 4px 0 10px;
+    position: absolute
+}
+
+:root {
+    --modal-duration: 1s;
+    --modal-color: #428bca;
+}
+
+.modal-outer-bg {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    font-size: 17px;
+    line-height: 1.6;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background: #428bca;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #3876ac;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+    margin: 10% auto;
+    width: 60%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
+
+@media only screen and (max-width:767px) {
+    .modal-content {
+        width: 80%;
+    }
+    .modal-header h2 {
+        font-size: large;
+    }
+}
+
+.modal-header h2,
+.modal-footer h3 {
+    margin: 0;
+}
+
+.modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.modal-body {
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

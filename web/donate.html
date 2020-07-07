@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="fontawesome-free-5.12.1-web\css\all.css" rel="stylesheet">
+    <link href="float-donate.css" rel="stylesheet">
+    <link href="footer-style.css" rel="stylesheet">
+    <link href="css\donate.css" rel="stylesheet">
+    <title>Donate</title>
+
+</head>
+<style>
+    .w3-animate-opacity {
+        animation: opac 0.8s
+    }
+    
+    @keyframes opac {
+        from {
+            opacity: 0
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    .disabled {
+        pointer-events: none;
+        color: gray;
+    }
+</style>
+
+<body>
+
+    <div class="main sticky-top">
+        <nav class="navbar navbar-default" style="box-shadow: 5px 5px 10px 5px rgba(216, 216, 216, 0.603);background: rgb(253, 253, 238);">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <a class="navbar-brand home" href="#" data-animate-hover="bounce">
+                            <div class="logo">
+                                <img src="images/logo4.png" class="img-responsive " alt="logo">
+                            </div>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="dropdown nav-area">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="About Us\AboutUs.html">About Us</a>
+                                <div class="dropdown-content">
+                                    <a href="">Overview</a>
+                                    <a href="">Vision & Mission</a>
+                                    <!--    <a href="#">Leadership</a>      -->
+                                    <a href="" class="display-none">What we do</a>
+                                    <!-- submenu start 
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown">Working Model</a>
+                                            <div class="dropdown-content submenu">
+                                                <a href="#">Social Venture Philanthropy</a>
+                                                <a href="#">Outreach </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                     <submenu end>  -->
+                                    <!--     <a href="#">Civic Driven Change</a>         -->
+                                    <a href="" class="display-none">Join us for Social Welfare</a>
+                                    <!--    <a href="#">Good Governance</a>                     -->
+                                    <a href="" class="display-none">Our Reach and Presence</a>
+                                    <!--    <a href="#" class="display-none">Stakeholders Speak</a>     -->
+                                    <a href="">Our People</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="ourWork.html">Our Work</a>
+                                <div class="dropdown-content">
+                                    <a href="">Overview</a>
+                                    <a href="">Education</a>
+                                    <a href="">Health</a>
+                                    <a href="">Livelihood</a>
+                                    <a href="">Women Empowerment</a>
+                                    <a href="" class="display-none">Disaster Response</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="ourCampaign\ourCampaign.html">Campaigns</a>
+                                <div class="dropdown-content">
+                                    <a href="">Every Child in School</a>
+                                    <a href="">Plate Half-Full</a>
+                                    <a href="">She Can Fly</a>
+                                    <a href="">Health Cannot Wait</a>
+                                    <!--    <a href="#">Help Disabled</a>
+                                    <a href="#">Adopt GrandParents</a>      -->
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="Happening.html">Happenings</a>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="getInvolve\getInvolve.html">Get Involved</a>
+                                <div class="dropdown-content">
+                                    <!-- submenu start -->
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="" data-toggle="dropdown">Individual Support</a>
+                                            <!--   <div class="dropdown-content submenu">
+                                                <a href="#">Donate</a>
+                                                <a href="#">Campaigns </a>
+                                                <a href="#">Volunteering</a>
+                                                <a href="#">Internship </a>
+                                            </div>-->
+                                        </li>
+                                    </ul>
+                                    <!-- <submenu end>  -->
+                                    <a href="">Corporate Partnerships</a>
+                                    <a href="" class="display-none">Institutional Alliances</a>
+
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="media.news.html">Media Centre</a>
+                                <div class="dropdown-content">
+                                    <a href="media.news.html">News</a>
+                                    <a href="imageGallery.html">Image Gallery</a>
+                                    <!--   <a href="#">Celebrities & Personalities</a>     -->
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="resourceCentre.html">Resource Centre</a>
+                                <div class="dropdown-content">
+                                    <a href="">Articles</a>
+                                    <!-- submenu start 
+                                    <ul class="">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-toggle="dropdown">Perspective</a>
+                                            <div class="dropdown-content dropdown-content-right dropdown-content-right submenu">
+                                                <a href="#">Child Rights</a>
+                                                <a href="#">Children in India</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <submenu end>  -->
+                                    <a href="">Annual Report</a>
+                                    <a href="">Stories of Change</a>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-area">
+                                <a href="contactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <br/><br/>
+    <!--donate section starts from here-->
+    <section style="width: fit-content;">
+        <div id="cmsmasters_row_be_with_us_for" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+            <div class="cmsmasters_row_outer_parent">
+                <div class="cmsmasters_row_outer">
+                    <div class="cmsmasters_row_inner">
+                        <div class="cmsmasters_row_margin cmsmasters_11">
+                            <div class="cmsmasters_column one_first">
+                                <div class="cmsmasters_text">
+                                    <section id="give_material" class="section-padding">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="col-md-12">
+                                                        <div class="cmsmasters_column">
+                                                            <div class="cmsmasters_tabs tabs_mode_tab">
+                                                                <ul class="cmsmasters_tabs_list" id="donation_cause">
+                                                                    <li id="cmsmasters_tabs_list_item_overall-goals" class="cmsmasters_tabs_list_item current_tab" style="width: 18%;">
+                                                                        <a onclick="swapDiv(0);" class="a_active_hover" href="#" id="overall-goals-default-link-tab"> <span>Overall Goals</span> </a>
+                                                                    </li>
+                                                                    <li id="cmsmasters_tabs_list_item_education" class="cmsmasters_tabs_list_item " style="width: 18%;">
+                                                                        <a onclick="swapDiv(1);" class="a_active_hover" href="#" id="overall-goals-default-link-tab"> <span>Education</span> </a>
+                                                                    </li>
+                                                                    <li id="cmsmasters_tabs_list_item_menstrual-hygiene" class="cmsmasters_tabs_list_item " style="width: 18%;">
+                                                                        <a onclick="swapDiv(2);" class="a_active_hover" href="#" id="overall-goals-default-link-tab"> <span>Health</span> </a>
+                                                                    </li>
+                                                                    <li id="cmsmasters_tabs_list_item_disaster-relief" class="cmsmasters_tabs_list_item " style="width: 18%;">
+                                                                        <a onclick="swapDiv(3);" class="a_active_hover" href="#" id="overall-goals-default-link-tab"> <span>Disaster Relief</span> </a>
+                                                                    </li>
+                                                                    <li id="cmsmasters_tabs_list_item_livelihood" class="cmsmasters_tabs_list_item " style="width: 18%;">
+                                                                        <a onclick="swapDiv(4);" class="a_active_hover" href="#" id="overall-goals-default-link-tab"> <span>Livelihood</span> </a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="cmsmasters_tabs_wrap" id="main-tabs-container">
+                                                                    <div id="cmsmasters_tab_6dfurfczbk" class="cmsmasters_tab active_tab w3-animate-opacity">
+                                                                        <div class="cmsmasters_tab_inner" style=" min-height: 250px; ">
+                                                                            <div class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                                                                <div class="cmsmasters_row_outer">
+                                                                                    <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin" style="width: 100%;">
+                                                                                        <div class="cmsmasters_row_margin cmsmasters_11 cmsmasters_1323">
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="box-body">
+                                                                                                    <ul class="payment_slabs">
+                                                                                                        <li> <input type="radio" name="amountOverall Goals" id="Overall Goals4,000" value="4000">&nbsp;<label for="Overall Goals4,000">Rs.4000/- will provide X amount of help &amp; and fulfill needs</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountOverall Goals" id="Overall Goals10,000" value="10000">&nbsp;<label for="Overall Goals10,000">Rs.10,000/- will provide Y amount of help &amp; and fulfill needs</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountOverall Goals" id="Overall Goals20,000" value="20000">&nbsp;<label for="Overall Goals20,000">Rs.20,000/- will provide Z amount of help &amp; and fulfill needs</label></li>
+                                                                                                    </ul>
+                                                                                                    <div class="amount-para">We give family kits to rural communities in exchange for development work (e.g. building roads, ponds, etc.) while preserving their dignity</div>
+                                                                                                </div>
+                                                                                                <div class="wish-to-give-section" style="max-width: ">
+                                                                                                    <form style="height: 80px; margin-bottom: 80px;" action="billing.jsp" method="POST">
+                                                                                                        <div style="margin-bottom: 10px;"> <span style="text-align: center;">I wish to give</span> &nbsp;&nbsp;&nbsp;
+                                                                                                            <div style="display: inline-block;"><input type="radio" id="Overall Goals-type-once" name="type" checked value="once1" />&nbsp;<label for="Overall Goals-type-once">Once</label>&nbsp;&nbsp;
+                                                                                                                <input type="radio" id="Overall Goals-type-monthly" name="type" value="monthly1" />&nbsp;<label for="Overall Goals-type-monthly">Monthly</label></div>
+                                                                                                            <br> <br><input id="input_contribute" name="amount" value="" required="required" type="number" min="50" style="width: 40%;font-size: 18px;" placeholder="Amount"
+                                                                                                                autocomplete="off"> <input style="width: 50%;" class="btn_contribute" type="submit" value="Donate"> <input type="hidden" name="purpose" value="Overall Goals"
+                                                                                                            /></div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="rocket-lazyload" style="background: url(img/Overall-goals.jpg); height: 100%;
+width: 85%;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+"></div>
+                                                                                                <!--  <div class="overlay-para-container"> <span>We handled 5,500 tons of waste to reach 2.7 Mn rural lives in 4,600+ villages across 25 states and UTs in 2018-19. <a href="#">Read more</a></span></div>-->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="cmsmasters_tab_6dfurfczbk" class="cmsmasters_tab ">
+                                                                        <div class="cmsmasters_tab_inner" style=" min-height: 250px; ">
+                                                                            <div class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                                                                <div class="cmsmasters_row_outer">
+                                                                                    <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin" style="width: 100%;">
+                                                                                        <div class="cmsmasters_row_margin cmsmasters_11 cmsmasters_1323">
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="box-body">
+                                                                                                    <ul class="payment_slabs">
+                                                                                                        <li> <input type="radio" name="amountEducation" id="Education3,500" value="3500">&nbsp;<label for="Education3,500">Rs.3,500/- will provide X School Kits for rural children</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountEducation" id="Education7,000" value="7000">&nbsp;<label for="Education7,000">Rs.7,000/- will provide Y school kits for rural children.</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountEducation" id="Education14,000" value="14000">&nbsp;<label for="Education14,000">Rs.14,000/- will provide Z school kits for rural children.</label></li>
+                                                                                                    </ul>
+                                                                                                    <div class="amount-para">We give school kits to enable access to basic education material and improve learning infrastructure in rural areas</div>
+                                                                                                </div>
+                                                                                                <div class="wish-to-give-section" style="max-width: ">
+                                                                                                    <form style="height: 80px; margin-bottom: 80px;" action="billing.jsp" method="POST">
+                                                                                                        <div style="margin-bottom: 10px;"> <span style="text-align: center;">I wish to give</span> &nbsp;&nbsp;&nbsp;
+                                                                                                            <div style="display: inline-block;"><input type="radio" id="Education-type-once" name="type" checked value="once2" />&nbsp;<label for="Education-type-once">Once</label>&nbsp;&nbsp;
+                                                                                                                <input type="radio" id="Education-type-monthly" name="type" value="monthly2" />&nbsp;<label for="Education-type-monthly">Monthly</label></div>
+                                                                                                            <br> <br>
+                                                                                                            <input id="input_contribute" name="amount" value="" required="required" type="number" min="50" style="width: 40%;font-size: 18px;" placeholder="Amount" autocomplete="off">
+                                                                                                            <input style="width: 50%;" class="btn_contribute" type="submit" value="Donate"> <input type="hidden" name="purpose" value="Education" /></div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="rocket-lazyload" style="background: url(img/s2s.jpg); height: 100%;
+width: 85%;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+"></div>
+                                                                                                <!-- <div class="overlay-para-container"> <span>We reached 147,000+ children in 2,200+ schools and channelized 52,000+ Schools Kits in 1500+ villages in 2018-19. <a href="#">Read more</a></span></div>-->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="cmsmasters_tab_6dfurfczbk" class="cmsmasters_tab ">
+                                                                        <div class="cmsmasters_tab_inner" style=" min-height: 250px; ">
+                                                                            <div class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                                                                <div class="cmsmasters_row_outer">
+                                                                                    <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin" style="width: 100%;">
+                                                                                        <div class="cmsmasters_row_margin cmsmasters_11 cmsmasters_1323">
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="box-body">
+                                                                                                    <ul class="payment_slabs">
+                                                                                                        <li> <input type="radio" name="amountMenstrual Hygiene" id="Menstrual Hygiene2,000" value="2000">&nbsp;<label for="Menstrual Hygiene2,000">Rs.2,000/- will provide X Health Packs for rural peoples</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountMenstrual Hygiene" id="Menstrual Hygiene4,000" value="4000">&nbsp;<label for="Menstrual Hygiene4,000">Rs.4,000/- will provide Y Health Packs for rural peoples</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountMenstrual Hygiene" id="Menstrual Hygiene8,000" value="8000">&nbsp;<label for="Menstrual Hygiene8,000">Rs.8,000/- will provide Z Health Packs for rural peoples</label></li>
+                                                                                                    </ul>
+                                                                                                    <div class="amount-para">We give dignity packs and conduct sessions on menstrual health for females in rural areas</div>
+                                                                                                </div>
+                                                                                                <div class="wish-to-give-section" style="max-width: ">
+                                                                                                    <form style="height: 80px; margin-bottom: 80px;" action="billing.jsp" method="POST">
+                                                                                                        <div style="margin-bottom: 10px;"> <span style="text-align: center;">I wish to give</span> &nbsp;&nbsp;&nbsp;
+                                                                                                            <div style="display: inline-block;"><input type="radio" id="Menstrual Hygiene-type-once" name="type" checked value="once3" />&nbsp;<label for="Menstrual Hygiene-type-once">Once</label>&nbsp;&nbsp;
+                                                                                                                <input type="radio" id="Menstrual Hygiene-type-monthly" name="type" value="monthly3" />&nbsp;<label for="Menstrual Hygiene-type-monthly">Monthly</label></div>
+                                                                                                            <br> <br><input id="input_contribute" name="amount" value="" required="required" type="number" min="50" style="width: 40%;font-size: 18px;" placeholder="Amount"
+                                                                                                                autocomplete="off"> <input style="width: 50%;" class="btn_contribute" type="submit" value="Donate"> <input type="hidden" name="purpose" value="Menstrual Hygiene"
+                                                                                                            /></div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="rocket-lazyload" style="background: url(img/health.jpg); height: 100%;
+width: 85%;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+"></div>
+                                                                                                <!--  <div class="overlay-para-container"> <span>We reached 1.24 Mn cloth pads with 93,000+ females participating in 2,200+ Chuppi Todo Baithaks in 2018-19. <a href="#">Read more</a></span></div>-->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="cmsmasters_tab_6dfurfczbk" class="cmsmasters_tab ">
+                                                                        <div class="cmsmasters_tab_inner" style=" min-height: 250px; ">
+                                                                            <div class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                                                                <div class="cmsmasters_row_outer">
+                                                                                    <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin" style="width: 100%;">
+                                                                                        <div class="cmsmasters_row_margin cmsmasters_11 cmsmasters_1323">
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="box-body">
+                                                                                                    <ul class="payment_slabs">
+                                                                                                        <li> <input type="radio" name="amountDisaster Relief" id="Disaster Relief3,000" value="3000">&nbsp;<label for="Disaster Relief3,000">Rs.3,000/- will provide X Relief Kit &amp; support rehabilitation</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountDisaster Relief" id="Disaster Relief9,000" value="9000">&nbsp;<label for="Disaster Relief9,000">Rs.9,000/- will provide Y Relief Kits & support rehabilitation </label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountDisaster Relief" id="Disaster Relief15,000" value="15000">&nbsp;<label for="Disaster Relief15,000">Rs.15,000/- will provide Z Relief Kits & support rehabilitation</label></li>
+                                                                                                    </ul>
+                                                                                                    <div class="amount-para">We give relief kits to disaster hit families and mobilize them in massive rehabilitation efforts</div>
+                                                                                                </div>
+                                                                                                <div class="wish-to-give-section" style="max-width: ">
+                                                                                                    <form style="height: 80px; margin-bottom: 80px;" action="billing.jsp" method="POST">
+                                                                                                        <div style="margin-bottom: 10px;"> <span style="text-align: center;">I wish to give</span> &nbsp;&nbsp;&nbsp;
+                                                                                                            <div style="display: inline-block;"><input type="radio" id="Disaster Relief-type-once" name="type" checked value="once4" />&nbsp;<label for="Disaster Relief-type-once">Once</label>&nbsp;&nbsp;
+                                                                                                                <input type="radio" id="Disaster Relief-type-monthly" name="type" value="monthly4" />&nbsp;<label for="Disaster Relief-type-monthly">Monthly</label></div>
+                                                                                                            <br> <br><input id="input_contribute" name="amount" value="" required="required" type="number" min="50" style="width: 40%;font-size: 18px;" placeholder="Amount"
+                                                                                                                autocomplete="off"> <input style="width: 50%;" class="btn_contribute" type="submit" value="Donate"> <input type="hidden" name="purpose" value="Disaster Relief"
+                                                                                                            /></div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="rocket-lazyload" style="background: url(img/rahat.jpg); height: 100%;
+width: 85%;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+"></div>
+                                                                                                <!--  <div class="overlay-para-container"> <span>We reached 1,40,000+ families with relief material during disasters and mobilized rural communities for massive rehabilitation in 2018-19. <a href="#">Read more</a></span></div>-->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="cmsmasters_tab_6dfurfczbk" class="cmsmasters_tab ">
+                                                                        <div class="cmsmasters_tab_inner" style=" min-height: 250px; ">
+                                                                            <div class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+                                                                                <div class="cmsmasters_row_outer">
+                                                                                    <div class="cmsmasters_row_inner cmsmasters_row_fullwidth cmsmasters_row_no_margin" style="width: 100%;">
+                                                                                        <div class="cmsmasters_row_margin cmsmasters_11 cmsmasters_1323">
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="box-body">
+                                                                                                    <ul class="payment_slabs">
+                                                                                                        <li> <input type="radio" name="amountLivelihood" id="Livelihood4,000" value="4000">&nbsp;<label for="Livelihood4,000">Rs.4,000/- will provide X Sujnis to those in need</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountLivelihood" id="Livelihood8,000" value="8000">&nbsp;<label for="Livelihood8,000">Rs.8,000/- will provide Y Sujnis to those in need</label></li>
+                                                                                                        <li>
+                                                                                                            <input type="radio" name="amountLivelihood" id="Livelihood16,000" value="16000">&nbsp;<label for="Livelihood16,000">Rs.16,000/- will provide Z Sujnis to those in need</label></li>
+                                                                                                    </ul>
+                                                                                                    <div class="amount-para">Sujnis made from cloth shreds are given in rural areas and are livelihood means for hundreds of females</div>
+                                                                                                </div>
+                                                                                                <div class="wish-to-give-section" style="max-width: ">
+                                                                                                    <form style="height: 80px; margin-bottom: 80px;" action="billing.jsp" method="POST">
+                                                                                                        <div style="margin-bottom: 10px;"> <span style="text-align: center;">I wish to give</span> &nbsp;&nbsp;&nbsp;
+                                                                                                            <div style="display: inline-block;"><input type="radio" id="Livelihood-type-once" name="type" checked value="once5" />&nbsp;<label for="Livelihood-type-once">Once</label>&nbsp;&nbsp;
+                                                                                                                <input type="radio" id="Livelihood-type-monthly" name="type" value="monthly5" />&nbsp;<label for="Livelihood-type-monthly">Monthly</label></div>
+                                                                                                            <br> <br>
+                                                                                                            <input id="input_contribute" name="amount" required="required" value="" type="number" min="50" style="width: 40%;font-size: 18px;" placeholder="Amount" autocomplete="off">
+                                                                                                            <input style="width: 50%;" class="btn_contribute" type="submit" value="Donate"> <input type="hidden" name="purpose" value="Livelihood" /></div>
+                                                                                                    </form>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="cmsmasters_column one_half">
+                                                                                                <div class="rocket-lazyload" style="background: url(img/livelihood.jpg); height: 100%;
+width: 85%;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+"></div>
+                                                                                                <!--  <div class="overlay-para-container"> <span>We channelized 780 tones of waste cloth to create Sujnis, My Pads, etc., acting as a means of livelihood to 1,300+ women in 2018-19. <a href="#">Read more</a></span></div>-->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br>
+        <div id="cmsmasters_row_other_ways_to_contribute" class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+            <div class="cmsmasters_row_outer_parent">
+                <div class="cmsmasters_row_outer">
+                    <div class="cmsmasters_row_inner">
+                        <div class="cmsmasters_row_margin cmsmasters_11">
+                            <div class="cmsmasters_column one_first">
+                                <div class="cmsmasters_text foreign_national_link">
+                                    <h2 style="text-align: left;display:inline-block; font-weight: 400;">Other ways to donate</h2> &nbsp;&nbsp;<a style="width: 200px;font-size: 16px;" class="cmsmasters_button disabled" href="#">Bank
+Transfer</a>&nbsp; &nbsp;&nbsp;
+                                    <a style="width: 200px;font-size: 16px;" class="cmsmasters_button" onclick="openMode();">Paytm</a></div>
+                                <div id="openMode" style="border: 3px solid orange;text-align: center;display: none;">
+                                    <br/>
+                                    <h3 style="color: orangered;">You can give Contribution here</h3>
+                                    <p style="font-size: 16px;"><strong>Paytm : </strong>0123456789</p>
+                                    <p style="font-size: 16px;"><strong>Paytm UPI : </strong>0123456789@paytm</p>
+                                    <strong>OR</strong><br/>
+                                    <a style="font-size: 16px;" href="#" style="cursor: pointer;">Click here</a>
+                                    <br/><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+        <hr style="margin-left: 90px;
+background: #da5b49;
+height: 2px;" />
+        <div id="cmsmasters_row_please_note" style="padding-top: 30px;padding-left: 90px; " class="cmsmasters_row cmsmasters_color_scheme_default cmsmasters_row_top_default cmsmasters_row_bot_default cmsmasters_row_boxed">
+            <div class="cmsmasters_row_outer_parent">
+                <div class="cmsmasters_row_outer">
+                    <div class="cmsmasters_row_inner">
+                        <div class="cmsmasters_row_margin cmsmasters_11">
+                            <div class="cmsmasters_column one_first">
+                                <div class="cmsmasters_text">
+                                    <section id="give_material" class="section-padding">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="col-md-12">
+                                                        <h2 class="cmsmasters_heading"><b>Guidelines</b></h2>
+                                                        <ul>
+                                                            <h4 style="font-weight: 500;">&#10022;&nbsp; As per Indian Tax Laws, it is mandatory to have full name and address of the contributor else it will be treated as anonymous and will be subject to taxation.</h4>
+                                                            <h4 style="font-weight: 500;">&#10022;&nbsp; In case you have a foreign address, we will need your passport copy as advised by the FCRA, 2010.</h4>
+                                                            <h4 style="font-weight: 500;">&#10022;&nbsp; For any queries, write to us on <a href="#">NGO.org</a> or call on 1234567890, 123-4567890</h4>
+                                                            <h4 style="font-weight: 500;">&#10022;&nbsp; <b>All Indian contributions made to our NGO are eligible for tax
+deduction of 50% u/s 80G of the Income Tax Act 1961.</b></h4>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br/>
+</body>
+<script>
+    function swapDiv(index) {
+        var dc = document.getElementById("donation_cause");
+        var tc = document.getElementById("main-tabs-container");
+        var btns = dc.getElementsByClassName("cmsmasters_tabs_list_item");
+        var ctc = tc.querySelectorAll(".cmsmasters_tab.active_tab.w3-animate-opacity");
+        var ctcs = tc.getElementsByClassName("cmsmasters_tab");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("current_tab");
+                current[0].className = current[0].className.replace(" current_tab", ""); //remove the current_tab from the currently active tab on clicking.
+                this.className += " current_tab"; //add the current tab to currently clicked division.
+            });
+            [].forEach.call(ctc, function(elem) {
+                elem.className = elem.className.replace(" active_tab w3-animate-opacity", "");
+            });
+            ctcs[index].className += " active_tab w3-animate-opacity";
+        }
+
+    }
+    var ps = document.querySelectorAll(".payment_slabs");
+    var wgs = document.querySelectorAll(".wish-to-give-section>form>div>input[name=amount]");
+    for (let k = 0; k < ps.length; k++) {
+        var rad = ps[k].querySelectorAll("li>input");
+        var prev = null;
+        for (var i = 0; i < rad.length; i++) {
+            rad[i].addEventListener('change', function() {
+                (prev) ? prev.value: null;
+                if (this !== prev) {
+                    prev = this;
+                }
+                //console.log(this.value);//prints the value of the selcted radio element
+                wgs[k].value = parseInt(this.value);
+            });
+        }
+        wgs[k].addEventListener("focus", function() {
+            var radio = ps[k].querySelector("li>input:checked");
+            radio.checked = false;
+        });
+    }
+
+    function openMode() {
+        document.getElementById("openMode").style.display = "block";
+    }
+</script>
+
+<!-- Footer -->
+<footer class="fot-er">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="about widgetf clearfix">
+                    <h4 class="footer_title large_title footer-styl h4-footer" style="color: wheat;font-size: 26px;">Our NGO</h4>
+                    <p class="footer-styl p-footer">
+                        So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us lan Gathering thing us land years living.
+                    </p>
+
+                    <div class="social-media-icons">
+                        <a href="#" class="footer-styl"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+                        <a href="#" class="footer-styl"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+                        <a href="#" class="footer-styl"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+                        <a href="#" class="footer-styl"><i class="fab fa-linkedin"></i><span>Linkedin</span></a>
+                        <a href="#" class="footer-styl"><i class="fab fa-youtube"></i><span>Youtube</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <div class="quick-linksf widgetf clearfix">
+                    <h4 class="title footer-styl h4-footer" style="color: wheat;">Quick links</h4>
+                    <div class="linksf" style="font-size: 14px;">
+                        <a href="About Us\AboutUs.html" class="footer-styl"><i class="fas fa-angle-double-right"></i>About Us</a>
+                        <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Forum</a>
+                        <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Terms and Conditions</a>
+                        <a href="" onclick="window.alert('Section Coming Soon')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Privacy Policy</a>
+                        <a href="" onclick="window.alert('Go to Resource Centre>Articles')" class="footer-styl"><i class="fas fa-angle-double-right"></i>Blog</a>
+                        <a href="ourCampaign\ourCampaign.html" class="footer-styl"><i class="fas fa-angle-double-right"></i>Campaigns</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 ">
+                <div class="tags-outer widgetf clearfix">
+                    <h4 class="footer_title h4-footer" style="color: wheat;">Contact Us</h4>
+                    <div class="ml-40">
+                        <p class="sm-head footer-styl" style="font-size: 14px;">
+                            <span class="fa fa-location-arrow"></span> Head Office
+                        </p>
+                        <p style="color: white;" class="footer-styl p-footer">123, Main Street, Your City</p>
+
+                        <p class="sm-head footer-styl" style="font-size: 14px;">
+                            <span class="fa fa-phone"></span> Phone Number
+                        </p>
+                        <p style="color: white;" class="footer-styl p-footer">
+                            +123 456 7890 <br> +123 456 7890
+                        </p>
+
+                        <p class="sm-head" class="footer-styl">
+                            <span class="fa fa-envelope"></span> Email
+                        </p>
+                        <p style="color: white;font-size: 14px;" class="footer-styl p-footer">
+                            info@ourNGO.com <br> www.infoOurNGO.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="subcribe widgetf clearfix">
+                    <h4 class="title h4-footer" style="color: wheat;" class="footer-styl">Subscribe</h4>
+                    <p class="footer-styl p-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate provident amet reprehenderit!</p>
+                    <form action="subscribe" method="POST">
+                        <div class="field">
+                            <input type="email" class="footer-subscrib" name="emailId" placeholder="Your E-mail" required>
+                        </div>
+                        <div class="field">
+                            <button class="btn btn-min btn-solid"><span>Subscibe</span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="container">
+            <h5 class="h5-footer" style="color: white;">Copyright ©2020 Our NGO. All Rights Reserved</h5>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

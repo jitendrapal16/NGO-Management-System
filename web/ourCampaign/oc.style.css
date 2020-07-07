@@ -1,0 +1,448 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300,300italic);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,500,600,700);
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    overflow-x: hidden;
+    background: #cbd4d4;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    -webkit-text-stroke: 0.1px;
+    -moz-text-stroke: 0.1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a,
+a:hover {
+    outline: none !important;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+    font-weight: 600;
+    line-height: 1.4;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+
+button {
+    border: none;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    display: inline-block;
+    height: 40px;
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    color: #555;
+    font-family: 'Dosis', sans-serif;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Heading Styles*/
+
+.cs-section-title {
+    font-size: 30px;
+    color: #333;
+    line-height: 35px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.widget-title h2 {
+    color: #272727;
+}
+
+.cs-post-title,
+.post-title {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cs-page-title {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.widget-title {
+    margin: 0px 0px 16px 0px;
+}
+
+.widget {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+}
+
+article figure {
+    float: left;
+    position: relative;
+}
+
+figure img {
+    float: left;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.fullwidth,
+.detail_figure img,
+.detail_figure,
+.fullwidthbanner-container {
+    float: left;
+    width: 100%;
+}
+
+.detail_text.rich_editor_text {
+    line-height: 1.5;
+}
+
+
+/*
+=====================================
+Once Cause
+=====================================
+*/
+
+.our_causes {
+    margin-bottom: 20px;
+}
+
+.our_causes article {
+    float: left;
+    width: 23.50%;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 6px 6px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.our_causes article:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.col-md-9 .our_causes article {
+    width: 31.33%;
+}
+
+.col-md-9 .our_causes article:nth-child(4n+1) {
+    margin-left: 2%;
+}
+
+.col-md-9 .our_causes article:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.col-md-6 .our_causes article {
+    width: 48%;
+}
+
+.col-md-6 .our_causes article:nth-child(4n+1) {
+    margin-left: 2%;
+}
+
+.col-md-6 .our_causes article:nth-child(3n+1) {
+    margin-left: 2%;
+}
+
+.col-md-6 .our_causes article:nth-child(2n+1) {
+    margin-left: 0;
+}
+
+.our_causes article:first-child {
+    margin-left: 0;
+}
+
+.our_causes article figure {
+    min-height: 380px;
+    padding-bottom: 140px;
+}
+
+.our_causes article figure,
+.our_causes article figure img {
+    float: left;
+    width: 100%;
+    height: 240px;
+}
+
+.our_causes article figcaption {
+    padding: 15px;
+    padding-bottom: none;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    background: #f8f8f8;
+    border-radius: 0 0 6px 6px;
+    border: 1px solid #ededed;
+    border-top: none;
+    border-bottom: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.progress-bar-charity {
+    float: left;
+    width: 100%;
+    background: #e7e7e7;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: visible !important;
+    height: 10px !important;
+    display: block !important;
+    visibility: visible !important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.progress-bar-charity div {
+    float: left;
+    overflow: visible !important;
+    height: 10px !important;
+    display: block !important;
+    visibility: visible !important;
+    position: relative;
+    border-radius: 8px;
+    padding: 0px 0px 0px 22px;
+}
+
+.progress-bar-charity div span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    font-size: 11px;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 4px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px #333;
+    background: #333;
+}
+
+.progress-desc {
+    margin-bottom: 12px;
+}
+
+.progress-desc span {
+    display: block;
+    float: left;
+    width: 33.33%;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+    border-left: 1px solid #e7e7e7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.progress-desc span:first-child {
+    padding-left: 0;
+    border: none;
+}
+
+.progress-desc span strong {
+    float: left;
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+.our_causes article .desc {
+    display: none;
+    color: #666;
+}
+
+.our_causes article:hover .desc,
+.our_causes article:focus .desc {
+    display: block;
+}
+
+.our_causes article .desc .post-category-list {
+    float: left;
+    color: #999;
+}
+
+.our_causes article .desc .post-category-list em,
+.our_causes article .desc .post-category-list a {
+    color: #999;
+    font-size: 12px;
+}
+
+.our_causes article .desc .post-category-list em {
+    margin-right: 10px;
+}
+
+.btnshare-post {
+    display: block;
+    float: right;
+}
+
+.our_causes article:hover,
+.latest-news article:hover {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.our_causes article:hover figcaption {
+    background: #fff;
+}
+
+.btnshowmore {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #999;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.btnshowmore em {
+    margin-right: 5px;
+}
+
+
+/*.........     Pagination Start    ............ */
+
+.pagenumbers {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenumbers button {
+    width: 50px;
+    height: 50px;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #44AAEE;
+    margin: 5px;
+    transition: 0.4s;
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+    background-color: #44EEAA;
+}
+
+.pagenumbers button.active {
+    background-color: #44EEAA;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/*.........     Pagination End  ............ */
